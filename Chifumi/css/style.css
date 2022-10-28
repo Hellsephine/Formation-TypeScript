@@ -1,0 +1,42 @@
+body{
+    background: #f2d2a9;
+}
+
+.container{
+    margin: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+#buttons button img, #resultat img{
+    min-width: 100px;
+    min-height: 100px;
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.win{
+    color: green;
+}
+
+.lose{
+    color:firebrick;
+}
+
+.draw{
+    color:peru;
+}
+
+#buttons button{
+    margin-left: 20px;
+    margin-right: 20px;
+    background: none;
+    border: none;
+    padding: 0px;
+    box-sizing: border-box;
+    border: transparent solid 2px;
+}
+
+#buttons button:hover{
+    border: white solid 2px;
+}
